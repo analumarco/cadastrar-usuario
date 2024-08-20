@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo/">
+    <link rel="stylesheet" href="estilo/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <h1>Cadastrar Usuário</h1>
+            <hr>
+            <div class="row mb-3">
+                <label for=" " class="col-sm-2 col-form-label">Nome: *</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id=" " placeholder="Pedro Joaquim da Silva">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="" class="col-sm-2 col-form-label">Email: *</label>
+                <div class="col-sm-5">
+                  <input type="email" class="form-control" id="" placeholder="pedrosilva@email.com">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="" class="col-sm-2 col-form-label">Nível de Acesso: *</label>
+                <div class="col-sm-5">
+                    <select class="form-control">
+                        <option value="">--Selecionar--</option>
+                        <option value="1">Gerente</option>
+                        <option value="2">Funcionário</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="" class="col-sm-2 col-form-label">Cargo: *</label>
+                <div class="col-sm-5">
+                  <input type="text" class="form-control" id="" placeholder="Auxiliar Administrativo">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="" class="col-sm-2 col-form-label">Senha: *</label>
+                <div class="col-sm-5">
+                  <input type="password" class="form-control" id="" placeholder="******">
+                </div>
+            </div>
+            <div class="row mb-12">
+                <label for="" class="col-sm-2 col-form-label">Confirmar Senha: *</label>
+                <div class="col-sm-5">
+                  <input type="password" class="form-control" id="" placeholder="******">
+                </div>
+                <div class="form-group col-8">
+                    <button type="button" class="btn btn-warning">
+                        <i class="bi bi-copy"></i>
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        <i class="bi bi-save-fill"></i>
+                    </button>
+                    <button type="cancel" class="btn btn-danger">
+                        <i class="bi bi-trash-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
